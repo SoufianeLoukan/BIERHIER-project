@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template: auto 1fr auto / auto;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+
+header {
+    background-color: #6fa8dc;
+    padding: 2rem;
+    grid-column: 1/4;
+}
+
+#content {
+    grid-column: 1 / 4;
+}
+
+footer {
+    padding: 1rem 2rem;
+    background-color: #999999;
+    grid-column: 1 / 4;
+    color: white;
+}
+
+nav {
+    font-weight: 600;
+    font-size: 110%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(75px, 20%));
+}
+
+nav a {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    display: grid;
+}
+
+.links a {
+    margin: 3px 0;
+    color: white;
+}
+
+footer #copyrights {
+    text-align: center;
+}
