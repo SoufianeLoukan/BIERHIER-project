@@ -16,6 +16,9 @@ header {
 
 #content {
     grid-column: 1 / 4;
+    padding: 1em;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 footer {

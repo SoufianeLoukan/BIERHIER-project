@@ -1,0 +1,55 @@
+.fotos {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+}
+
+.fotos img {
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    padding: 2em 0;
+}
+
+.text span {
+    font-weight: 600;
+    font-size: 110%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+
+.sportText {
+    padding: 0 2em;
+    max-width: 350px;
+}
+
+.sportText p {
+    padding-bottom: 1em;
+}
+
+@media (max-width: 825px) {
+    .wrapper {
+        display: block;
+    }
+}
+
+.text p {
+    padding: 0 1em;
+}
+
+img {
+    width: 100%;
+}
+
+.uitslagen > img {
+    padding: 0 1em;
+}
